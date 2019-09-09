@@ -1439,7 +1439,7 @@ server.on('stream', (stream) => {
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/29876
     description: The `fd` option may now be a `FileHandle`.
   - version: v10.0.0
@@ -1742,7 +1742,7 @@ server.on('stream', (stream, headers, flags) => {
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/27558
     description: The default timeout changed from 120s to 0 (no timeout).
 -->
@@ -1771,7 +1771,7 @@ closed, although the server has already stopped allowing new sessions. See
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/27558
     description: The default timeout changed from 120s to 0 (no timeout).
 -->
@@ -1939,7 +1939,7 @@ error will be thrown.
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/29144
     description: The `PADDING_STRATEGY_CALLBACK` has been made equivalent to
                  providing `PADDING_STRATEGY_ALIGNED` and `selectPadding`
@@ -2053,7 +2053,7 @@ server.listen(80);
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/29144
     description: The `PADDING_STRATEGY_CALLBACK` has been made equivalent to
                  providing `PADDING_STRATEGY_ALIGNED` and `selectPadding`
@@ -2154,7 +2154,7 @@ server.listen(80);
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/29144
     description: The `PADDING_STRATEGY_CALLBACK` has been made equivalent to
                  providing `PADDING_STRATEGY_ALIGNED` and `selectPadding`
@@ -2359,7 +2359,7 @@ server.on('stream', (stream, headers) => {
 <!-- YAML
 added: v8.4.0
 changes:
-  - version: REPLACEME
+  - version: v13.0.0
     pr-url: https://github.com/nodejs/node/pull/29833
     description: The `maxConcurrentStreams` setting is stricter.
   - version: v8.9.3
@@ -2703,7 +2703,7 @@ been completed, aborted, or destroyed.
 #### request.connection
 <!-- YAML
 added: v8.4.0
-deprecated: REPLACEME
+deprecated: v13.0.0
 -->
 
 > Stability: 0 - Deprecated. Use [`request.socket`][].
@@ -3004,7 +3004,7 @@ will result in a [`TypeError`][] being thrown.
 #### response.connection
 <!-- YAML
 added: v8.4.0
-deprecated: REPLACEME
+deprecated: v13.0.0
 -->
 
 > Stability: 0 - Deprecated. Use [`response.socket`][].

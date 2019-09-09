@@ -986,7 +986,7 @@ requireUtil('./some-tool');
 
 ### module.syncBuiltinESMExports()
 <!-- YAML
-added: REPLACEME
+added: v13.0.0
 -->
 
 The `module.syncBuiltinESMExports()` method updates all the live bindings for
